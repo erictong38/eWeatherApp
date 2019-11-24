@@ -1,0 +1,9 @@
+/* style login form */
+form input[type="text"],
+form input[type="password"]{
+    background-color: transparent;
+    color: white;
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    border-radius:0;
+}

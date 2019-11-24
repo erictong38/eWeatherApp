@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./assets/earth.jpg');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat; 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-position-x: 60%;
+  }
 }
